@@ -10,11 +10,13 @@ FreeRTOS task scheduling, and closed-loop control.
 ## Projects
 
 stm32-freertos-realtime-imu
+
 FreeRTOS multi-task system on STM32F103RB with PID controller, exponential
 low-pass filter on joystick ADC, ISR-to-task notifications, IWDG supervision,
 and cycle-accurate WCET profiling via DWT->CYCCNT. JSON telemetry over USART2.
 
 UART-snake-game
+
 Fully functional Snake game on STM32F103RB using bare-metal C.
 I2C LCD driver (PCF8574), 12-bit ADC joystick with software deadzone,
 TIM2 hardware interrupt game loop, interrupt-driven UART commands,
