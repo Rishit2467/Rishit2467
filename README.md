@@ -45,5 +45,5 @@ low-level firmware development.
 
 ## Contact
 
-rishit25101@iiitnr.edu.in
-linkedin.com/in/rishit-paliwal-276226334
+rishit25101@iiitnr.edu.in 
+https://www.linkedin.com/in/rishit-paliwal-276226334
