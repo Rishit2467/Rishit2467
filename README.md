@@ -9,6 +9,11 @@ FreeRTOS task scheduling, and closed-loop control.
 
 ## Projects
 
+bootloader
+
+A two-stage bare-metal/HAL firmware update system for the STM32 Nucleo-F103RB (ARM Cortex-M3, 128 KB Flash) supporting over-UART firmware flashing, IEEE 802.3 CRC32 integrity verification, vector table relocation (SCB->VTOR), and fault-tolerant boot fallback—requiring no external hardware beyond the onboard ST-LINK Virtual COM Port.
+
+
 stm32-freertos-realtime-imu
 
 FreeRTOS multi-task system on STM32F103RB with PID controller, exponential
@@ -25,7 +30,7 @@ TIM2 hardware interrupt game loop, interrupt-driven UART commands,
 
 ## Skills
 
-Languages: C, Embedded C, Python, C++ (basic), Verilog (basic)
+Languages: C, Embedded C, Python, C++ , Verilog (basic)
 
 Microcontrollers: STM32 Nucleo-F103RB (Cortex-M3), Arduino Uno, Raspberry Pi 5
 
@@ -33,7 +38,7 @@ Interfaces: GPIO, UART, I2C, SPI, ADC, PWM, Timer Interrupts
 
 RTOS: FreeRTOS (tasks, queues, mutexes, task notifications, watchdog)
 
-Tools: PlatformIO, STM32CubeIDE, Git, Linux, KiCad (basic)
+Tools: PlatformIO, STM32CubeIDE, Git, Linux
 
 
 ## Currently
